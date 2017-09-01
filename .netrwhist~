@@ -1,7 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/dna-dev/Documents/Code/Public/meanstackv1/public'
 let g:netrw_dirhist_2='/home/dna-dev/Documents/Code/Public/meanstackv1'
 let g:netrw_dirhist_3='/home/dna-dev/Documents/Code/Public/meanstackv1/public'
 let g:netrw_dirhist_4='/home/dna-dev/Documents/Code/Public/meanstackv1'
-let g:netrw_dirhist_5='/home/dna-dev/Documents/Code/Ready/remove_duplicate.js'
