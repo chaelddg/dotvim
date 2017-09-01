@@ -1,16 +1,12 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+filetype off
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+syntax on
 
-syntax enable
+filetype plugin indent on
+
 set background=dark
 set t_Co=16
 colorscheme dracula
