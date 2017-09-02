@@ -1,7 +1,12 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-syntax enable
+filetype off
+
+syntax on
+
+filetype plugin indent on
+
 set background=dark
 set t_Co=16
 colorscheme dracula
